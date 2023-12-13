@@ -1,0 +1,38 @@
+.login__container {
+    place-items: start center;
+}
+
+.login__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.login__input {
+    display: grid;
+    place-items: center;
+}
+
+.login__input input {
+    width: 350px;
+}
+
+.login__img__svg {
+    width: 300px;
+}
+
+@media screen and (max-width: 450px) {
+    .login__img__svg {
+        width: 80vw;
+    }
+
+    .login__form input {
+        width: unset;
+    }
+
+    .login__input {
+        width: 80vw;
+    }
+}

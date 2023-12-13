@@ -1,0 +1,9 @@
+.show__card {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: var(--l);
+}
+
+.show__key {
+    font-weight: bold;
+}

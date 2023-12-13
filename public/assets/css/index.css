@@ -1,0 +1,9 @@
+.index__container {
+    gap: var(--l);
+    place-items: center;
+}
+
+.index__pic__login {
+    min-width: 178px;
+    height: 70vh;
+}
